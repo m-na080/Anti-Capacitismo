@@ -53,7 +53,7 @@ img{
     align-items: center;
     margin: 5px;
 }
-#sobre h3 h2{
+#sobre h3, #sobre h2{
     gap: 2px;
     color: #AAB2C0;
 }
@@ -74,7 +74,7 @@ img{
     align-items: center;
     margin: 2px;
 }
-#leis h2 p{
+#leis h2, #leis p{
     gap: 2px;
     margin: 2px;
 }
