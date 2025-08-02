@@ -93,3 +93,29 @@ img{
     border: 3px;
     border-radius: 5px;
 }
+@media (max-width: 768px) {
+  #header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  #header a {
+    margin-left: 0;
+  }
+
+  #sobrediv,
+  #leis div {
+    min-width: 100% !important;
+  }
+
+  #title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  #leis {
+    align-items: stretch;
+  }
+}
