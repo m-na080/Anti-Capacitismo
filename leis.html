@@ -10,9 +10,12 @@
     <title>TCA</title>
 </head>
 <body onload="brython()">
-    <header>
+    <div id="divtitle">
+        <button class="open-btn" onclick="toggleSidebar()">☰</button>
+        <h1 id="title"><img src="punho.ico" alt="punho" style="width: 30px; height: 30px;">Anti-Capacitismo</h1>
+    </div>
+    <header id="mySidebar" class="sidebar">
         <div id="header">
-            <h1 id="title"><img src="punho.ico" alt="punho" style="width: 30px; height: 30px;">Anti-Capacitismo</h1>
             <nav>
                 <a href="index.html">HOME</a>
                 <a href="perguntas.html">PERGUNTAS E RESPOSTAS</a>
