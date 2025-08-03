@@ -14,12 +14,14 @@
 </head>
 <body onload="brython()">
     <div id="divtitle">
-        <button class="open-btn" onclick="toggleSidebar()">☰</button>
+        <button class="open-btn" onclick="openSidebar()">☰</button>
         <h1 id="title"><img src="punho.ico" alt="punho" style="width: 30px; height: 30px;">Anti-Capacitismo</h1>
     </div>
-    <header id="mySidebar" class="sidebar">
+    <div id="overlay" class="overlay" onclick="closeSidebar()"></div>
+    <header id="sidebar" class="sidebar">
         <div id="header">
             <nav>
+                <button class="close-btn" onclick="closeSidebar()">X</button>
                 <a href="index.html">HOME</a>
                 <a href="perguntas.html">PERGUNTAS E RESPOSTAS</a>
                 <a href="leis.html">LEIS</a>
