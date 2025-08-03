@@ -118,6 +118,9 @@ img{
     gap: 2px;
     color: #AAB2C0;
 }
+#sobre a{
+    color: blue;
+}
 #sobrediv{
     width: auto;
     min-width: 830px;
